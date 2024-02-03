@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
 
         val groceryItem : ArrayList<ItemModel> = ArrayList()
-
+        // display text
         val v1 = ItemModel("Fruits","Fresh Fruits from Garden",R.drawable.fruits)
         val v2 = ItemModel("Vegetables","Delicious Vegetables",R.drawable.vegetables)
         val v3 = ItemModel("Diary and Eggs","Milk, Curd and Other Diary Products",R.drawable.milk)
